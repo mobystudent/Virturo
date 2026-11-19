@@ -1,0 +1,215 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  font-family: "Roobert", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.single-blog-text {
+  color: #000000;
+  font-family: "Roobert";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+.single-blog-text figure {
+  margin-top: 20px;
+}
+.single-blog-text .attachment__caption {
+  display: none;
+}
+.single-blog-text img {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  display: block;
+}
+@media (max-width: 768px) {
+  .single-blog-text {
+    font-size: 16px;
+  }
+}
+.single-blog-text .attachment__caption {
+  display: none;
+}
+.single-blog-text p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  margin-bottom: 0;
+  font-family: "Roobert";
+}
+.single-blog-text a {
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roobert";
+  text-decoration-line: underline;
+}
+.single-blog-text strong {
+  font-weight: 500;
+  font-family: "Roobert";
+}
+.single-blog-text h1, .single-blog-text h2 {
+  margin: 40px 0 24px;
+  color: #282929;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.102px;
+  font-family: "Roobert";
+}
+.single-blog-text h3, .single-blog-text h4, .single-blog-text h5, .single-blog-text h6 {
+  margin: 40px 0 24px;
+  color: #282929;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.102px;
+  font-family: "Roobert";
+}
+@media (max-width: 768px) {
+  .single-blog-text h1, .single-blog-text h2, .single-blog-text h3, .single-blog-text h4, .single-blog-text h5, .single-blog-text h6 {
+    margin: 20px 0 24px;
+    line-height: 120%;
+    font-size: 20px;
+  }
+  .single-blog-text h4, .single-blog-text h5, .single-blog-text h6 {
+    font-size: 18px;
+  }
+}
+.single-blog-text figure {
+  max-width: 100%;
+}
+.single-blog-text figure img {
+  margin: 0;
+  max-width: 100%;
+  border-radius: 16px;
+}
+.single-blog-text figure figcaption {
+  margin: 7px 0 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9a9aab;
+}
+.single-blog-text ul,
+.single-blog-text ol {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 28px */
+  color: #0e0523;
+  font-family: "Roobert";
+  padding-left: 20px;
+}
+.single-blog-text ul li,
+.single-blog-text ol li {
+  list-style: inherit;
+}
+.simplebar-track.simplebar-vertical {
+  width: 4px !important;
+  background-color: #f1f1f1 !important;
+  border-radius: 10px;
+}
+
+.simplebar-scrollbar.simplebar-visible.simplebar-scrollbar-y:before {
+  width: 4px;
+  background: red; /* Цвет background для scrollbar-thumb */
+  border-radius: 10px;
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+  opacity: 1; /* Прозрачность скроллбара при показе */
+}
+
+.simplebar-scrollbar.simplebar-visible.simplebar-scrollbar-y:before {
+  border-radius: 10px; /* Радиус скругления бегунка скроллбара */
+}
+
+.simplebar-scrollbar.simplebar-visible.simplebar-scrollbar-y:before {
+  width: 4px; /* Ширина вертикального бегунка скроллбара */
+}
+
+.simplebar-scrollbar.simplebar-visible {
+  background: #E6E6E6 !important;
+  border-radius: 10px;
+}
+
+.el-dialog__body {
+  padding: 30px 40px !important;
+  padding-right: 26px !important;
+}
+@media (max-width: 992px) {
+  .el-dialog__body {
+    padding: 9px 16px 16px !important;
+    padding-right: 10px !important;
+  }
+}
+
+.el-dialog {
+  border-radius: 16px;
+}
+@media (max-width: 992px) {
+  .el-dialog {
+    margin: 20px !important;
+  }
+}
+
+.el-dialog__wrapper {
+  overflow: hidden;
+}
+
+.el-icon-close::before {
+  width: 12px !important;
+  height: 12px !important;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11.3307 0.666992L0.664062 11.3337" stroke="#282929" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/><path d="M0.665364 0.666992L11.332 11.3337" stroke="#282929" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+}
+
+.el-dialog__headerbtn {
+  width: 12px;
+  height: 12px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11.3307 0.666992L0.664062 11.3337" stroke="#282929" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/><path d="M0.665364 0.666992L11.332 11.3337" stroke="#282929" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/></svg>') !important;
+  top: 13px !important;
+  right: 13px !important;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #282929 !important;
+}
+
+.el-popup-parent--hidden .header-wrap .wrapper {
+  padding-right: 17px;
+  box-sizing: content-box;
+}
+
+.el-popup-parent--hidden #hubspot-messages-iframe-container.widget-align-right {
+  right: 17px !important;
+}
+
+.el-dialog {
+  border-radius: 16px !important;
+}/*# sourceMappingURL=global.css.map */

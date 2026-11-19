@@ -1,0 +1,252 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  // #__nuxt,
+  // #__layout,
+  // #__layout>div,
+  // #__layout>div>div {
+  //   height: 100%;
+  // }
+}
+
+.single-blog-text {
+  color: #000000;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+
+  figure {
+    margin-top: 20px;
+  }
+
+  .attachment__caption {
+    display: none;
+  }
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+  .attachment__caption {
+    display: none;
+  }
+  p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    margin-bottom: 0;
+    font-family: 'Poppins';
+  }
+
+  a {
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Poppins';
+    text-decoration-line: underline;
+  }
+
+  strong {
+    font-weight: 500;
+    font-family: 'Poppins';
+  }
+
+  h1, h2 {
+    margin: 40px 0 24px;
+    color: #282929;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.102px;
+    font-family: 'Poppins';
+  }
+  h3, h4, h5, h6 {
+    margin: 40px 0 24px;
+    color: #282929;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.102px;
+    font-family: 'Poppins';
+  }
+  @media (max-width: 768px) {
+    h1, h2, h3, h4, h5, h6 {
+      margin: 20px 0 24px;
+      line-height: 120%;
+      font-size: 20px;
+    }
+
+    h4, h5, h6 {
+      font-size: 18px;
+    }
+  }
+  figure {
+    // margin-bottom: 15px;
+    max-width: 100%;
+    img {
+      margin: 0;
+      max-width: 100%;
+      border-radius: 16px;
+    }
+    figcaption {
+      margin: 7px 0 15px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #9a9aab;
+    }
+  }
+  ul,
+  ol {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 28px */
+    color: #0e0523;
+    font-family: 'Poppins';
+    // margin-bottom: 20px;
+    padding-left: 20px;
+    li {
+      list-style: inherit;
+      &:not(:last-child) {
+        // padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+
+.simplebar-track.simplebar-vertical {
+  width: 4px !important;
+  background-color: #ECECE4 !important;
+  border-radius: 10px;
+}
+
+.simplebar-scrollbar.simplebar-visible.simplebar-scrollbar-y:before {
+  width: 4px;
+  background: red; /* Цвет background для scrollbar-thumb */
+  border-radius: 10px;
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+  opacity: 1; /* Прозрачность скроллбара при показе */
+}
+
+.simplebar-scrollbar.simplebar-visible.simplebar-scrollbar-y:before {
+  border-radius: 10px; /* Радиус скругления бегунка скроллбара */
+}
+
+.simplebar-scrollbar.simplebar-visible.simplebar-scrollbar-y:before {
+  width: 4px; /* Ширина вертикального бегунка скроллбара */
+}
+
+.simplebar-scrollbar.simplebar-visible {
+  background: #352F44 !important;
+  // background: red !important;
+  border-radius: 10px;
+  // height: 160px !important;
+}
+
+.simplebar-scrollbar {
+  // height: 100px !important;
+}
+
+.el-dialog__body {
+  padding: 30px 40px !important;
+  padding-right: 26px !important;
+  @media (max-width: 992px) {
+    padding: 0 16px 16px !important;
+    padding-right: 10px !important;
+  }
+} 
+
+.el-dialog {
+  border-radius: 16px;
+  @media (max-width: 992px) {
+    margin: 20px !important;
+  }
+}
+
+.el-dialog__wrapper {
+  overflow: hidden;
+}
+
+.el-icon-close::before {
+  // content: '' !important;
+  width: 22px !important;
+  height: 22px !important;
+  // background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11.3307 0.666992L0.664062 11.3337" stroke="#282929" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/><path d="M0.665364 0.666992L11.332 11.3337" stroke="#282929" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M12.4133 11.0007L17.363 6.05093L16.2317 4.91956L11.2819 9.86931L6.04934 4.63672L4.91797 5.76809L10.1506 11.0007L4.91797 16.2333L6.04934 17.3646L11.2819 12.1321L16.2317 17.0818L17.363 15.9504L12.4133 11.0007Z" fill="#352F44"/></svg>');
+}
+
+.el-dialog__headerbtn {
+  width: 22px;
+  height: 22px;
+  // background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11.3307 0.666992L0.664062 11.3337" stroke="#282929" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/><path d="M0.665364 0.666992L11.332 11.3337" stroke="#282929" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/></svg>') !important;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M12.4133 11.0007L17.363 6.05093L16.2317 4.91956L11.2819 9.86931L6.04934 4.63672L4.91797 5.76809L10.1506 11.0007L4.91797 16.2333L6.04934 17.3646L11.2819 12.1321L16.2317 17.0818L17.363 15.9504L12.4133 11.0007Z" fill="#352F44"/></svg>');
+  top: 20px !important;
+  right: 20px !important;
+
+  @media (max-width: 992px) {
+    top: 14px !important;
+    right: 6px !important;
+  }
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #352F44 !important;
+}
+
+.el-popup-parent--hidden .header-wrap .wrapper {
+  padding-right: 17px;
+  box-sizing: content-box;
+}
+
+.el-popup-parent--hidden #hubspot-messages-iframe-container.widget-align-right {
+  right: 17px !important;
+}
+
+.el-dialog {
+  border-radius: 16px !important;
+}
+
+.el-dialog__header {
+  @media (max-width: 992px) {
+    padding: 0 !important;
+    padding-bottom: 12px !important;
+  }
+}

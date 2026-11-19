@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .error {
+            background-color: #352F44;
+            height: 100vh;
+            min-height: 350px;
+            position: relative;
+            }
+
+            .inner {
+            padding: 0 20%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto 0;
+            }
+
+            .wrapper {
+            display: flex;
+            margin: auto 0;
+            }
+
+            .internal-bg {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 100%;
+            max-width: 600px;
+            max-height: 800px;
+            }
+
+            .internal-bg.right {
+            right: 0;
+            }
+
+            .internal-bg.left {
+            left: 0;
+            }
+
+            .internal-bg.top {
+            top: 0;
+            }
+
+            .internal-bg.bottom {
+            top: auto;
+            bottom: 0;
+            }
+
+            .internal-bg.desktop {
+            display: block;
+            }
+
+            .internal-bg.mobile {
+            display: none;
+            max-height: 235px;
+            max-width: none;
+            transform: translate(-50%, 0);
+            left: 50%;
+            }
+
+            @media (max-width: 1280px) {
+            .internal-bg {
+                max-height: 600px;
+            }
+            }
+
+            @media (max-width: 1250px) {
+            .internal-bg {
+                max-width: 170px;
+            }
+            }
+
+            @media (max-width: 1200px) {
+            .internal-bg {
+                max-height: 400px;
+            }
+            }
+
+            @media (max-width: 992px) {
+            .internal-bg.desktop {
+                display: none;
+            }
+            .internal-bg.mobile {
+                display: block;
+                max-height: 172px;
+            }
+            }
+
+            .block-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .icon {
+            margin-bottom: 40px;
+            width: 52px;
+            height: 52px;
+            }
+
+            .title {
+            margin-bottom: 40px;
+            max-width: 632px;
+            color: #ECECE4;
+            font-family: "Poppins";
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 112%;
+            text-align: center;
+            }
+
+            @media (max-width: 768px) {
+            .title {
+                font-size: 32px;
+                line-height: 140%;
+            }
+            }
+
+            .error-btn {
+            display: block;
+            font: 500 16px/1 'Poppins', sans-serif;
+            padding: 18px 32px;
+            border-radius: 4px;
+            color: #352F44;
+            background-color: #D3F5EC;
+            border: 1px solid #D3F5EC;
+            transition: color .25s ease-in, background .25s ease-in;
+            text-decoration: none;
+            }
+
+            .error-btn:hover {
+            background-color: transparent;
+            color: #D3F5EC;
+            }
+
+            .error-btn:active {
+            background-color: transparent;
+            color: #D3F5EC;
+            }
+
+            @media (max-width: 767px) {
+            .inner {
+                padding: 0 16px;
+            }
+            .wrapper {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="error">
+        <img
+          class="internal-bg top mobile"
+          src="layout/static/img/page-404/snowflake-bg-top.png"
+          alt="snowflake background"
+        >
+        <img
+          class="internal-bg bottom mobile"
+          src="layout/static/img/page-404/snowflake-bg-bottom.png"
+          alt="snowflake background"
+        >
+        <div class="inner">
+          <img
+            class="internal-bg left desktop"
+            src="layout/static/img/page-404/snowflake-bg-left.png"
+            alt="snowflake background"
+          >
+          <img
+            class="internal-bg right desktop"
+            src="layout/static/img/page-404/snowflake-bg-right.png"
+            alt="snowflake background"
+          >
+          <div class="wrapper">
+            <div class="block-content">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
+                  <path d="M19.5 22.1665H19.5217" stroke="#D3F5EC" stroke-width="4.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M32.5 22.1665H32.5217" stroke="#D3F5EC" stroke-width="4.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M25.9993 4.8335C21.4023 4.8335 16.9935 6.65968 13.7428 9.91031C10.4922 13.1609 8.66602 17.5697 8.66602 22.1668V48.1668L15.166 41.6668L20.5827 47.0835L25.9993 41.6668L31.416 47.0835L36.8327 41.6668L43.3327 48.1668V22.1668C43.3327 17.5697 41.5065 13.1609 38.2559 9.91031C35.0052 6.65968 30.5964 4.8335 25.9993 4.8335Z" stroke="#D3F5EC" stroke-width="4.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h2 class="title">
+                Oops, the page you were looking for doesn’t exist!
+              </h2>
+              <a href="/" class="error-btn nuxt-link-active">
+                Go to homepage
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="weather-05 1" clip-path="url(#clip0_54_24590)">
+<g id="Group">
+<path id="Vector" d="M28.4656 11.1483C27.5289 11.1483 26.6456 11.3417 25.8739 11.7267C25.2956 7.92167 21.9873 5 18.0173 5C13.6889 5 10.1606 8.47333 10.0506 12.775C7.45893 13.105 5.44727 15.3117 5.44727 18.04C5.4456 20.9617 7.81727 23.3333 10.7389 23.3333H28.4656C31.8289 23.3333 34.5589 20.6033 34.5589 17.24C34.5589 13.8767 31.8289 11.1483 28.4656 11.1483Z" stroke="#157275" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M20.3372 34.9997L22.0039 31.6663H18.0039L19.6706 28.333" stroke="#157275" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M30 28.333L27.5 33.333" stroke="#157275" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M12.5 28.333L10 33.333" stroke="#157275" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_54_24590">
+<rect width="40" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>

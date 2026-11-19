@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600&family=Poppins:wght@300;400&display=swap");
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppinsextralight.woff2") format("woff2"),
+       url("../fonts/Poppinsextralight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppinslight.woff2") format("woff2"),
+       url("../fonts/Poppinslight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppinsregular.woff2") format("woff2"),
+       url("../fonts/Poppinsregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppinsmedium.woff2") format("woff2"),
+       url("../fonts/Poppinsmedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppinsbold.woff2") format("woff2"),
+       url("../fonts/Poppinsbold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppinsextrabold.woff2") format("woff2"),
+       url("../fonts/Poppinsextrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Thin.ttf") format("ttf");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-ExtraLight.ttf") format("ttf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-ExtraBold.ttf") format("ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Black.ttf") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roobert';
+  src: url('../fonts/roobert-medium-webfont.eot');
+  src: url('../fonts/roobert-medium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roobert-medium-webfont.woff2') format('woff2'),
+       url('../fonts/roobert-medium-webfont.woff') format('woff'),
+       url('../fonts/roobert-medium-webfont.ttf') format('truetype'),
+       url('../fonts/roobert-medium-webfont.svg#roobertmedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roobert';
+  src: url('../fonts/roobert-regular-webfont.eot');
+  src: url('../fonts/roobert-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roobert-regular-webfont.woff2') format('woff2'),
+       url('../fonts/roobert-regular-webfont.woff') format('woff'),
+       url('../fonts/roobert-regular-webfont.ttf') format('truetype'),
+       url('../fonts/roobert-regular-webfont.svg#roobertregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roobert";
+  src: url('../fonts/roobert-heavy-webfont.eot');
+  src: url('../fonts/roobert-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+       url("../fonts/roobert-heavy-webfont.woff2") format("woff2"),
+       url("../fonts/roobert-heavy-webfont.woff") format("woff"),
+       url('../fonts/roobert-heavy-webfont.ttf') format('truetype'),
+       url('../fonts/roobert-heavy-webfont.svg#roobertheavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: local('../fonts/Unbounded Regular'), local('Unbounded-Regular'),
+      url('../fonts/Unbounded-Regular.woff') format('woff'),
+      url('../fonts/Unbounded-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
